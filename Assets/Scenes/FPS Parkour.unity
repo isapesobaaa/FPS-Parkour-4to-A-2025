@@ -378,6 +378,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1701504026}
     m_Modifications:
+    - target: {fileID: 114130684750309092, guid: e3f7582c040151945a4ac8662b1dfdb6,
+        type: 3}
+      propertyPath: precio
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1414641632289885149, guid: e3f7582c040151945a4ac8662b1dfdb6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -447,6 +452,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1701504026}
     m_Modifications:
+    - target: {fileID: 114130684750309092, guid: e3f7582c040151945a4ac8662b1dfdb6,
+        type: 3}
+      propertyPath: precio
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1414641632289885149, guid: e3f7582c040151945a4ac8662b1dfdb6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -575,6 +585,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CajaPrefab (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974969325110899430, guid: 37119527393a62545adb8e9699075f8b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37119527393a62545adb8e9699075f8b, type: 3}
@@ -1126,6 +1141,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1701504026}
     m_Modifications:
+    - target: {fileID: 114130684750309092, guid: e3f7582c040151945a4ac8662b1dfdb6,
+        type: 3}
+      propertyPath: precio
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1414641632289885149, guid: e3f7582c040151945a4ac8662b1dfdb6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1501,6 +1521,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1701504026}
     m_Modifications:
+    - target: {fileID: 1518563242151854608, guid: 37119527393a62545adb8e9699075f8b,
+        type: 3}
+      propertyPath: dineroManager
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5123382731376126713, guid: 37119527393a62545adb8e9699075f8b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1864,6 +1889,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathFallHeight: -15
+--- !u!114 &1590129604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590129597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac10a990904edd241aa4ad89e0383646, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMoney: 100
 --- !u!1001 &1654691365
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2004,6 +2042,11 @@ PrefabInstance:
     - target: {fileID: 8301348219256675485, guid: d23a71d629ca2cb428e58efdcf5d4c1b,
         type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8301348219256675485, guid: d23a71d629ca2cb428e58efdcf5d4c1b,
+        type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2223,6 +2266,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1701504026}
     m_Modifications:
+    - target: {fileID: 1518563242151854608, guid: 37119527393a62545adb8e9699075f8b,
+        type: 3}
+      propertyPath: dineroManager
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5123382731376126713, guid: 37119527393a62545adb8e9699075f8b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2623,6 +2671,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1701504026}
     m_Modifications:
+    - target: {fileID: 114130684750309092, guid: e3f7582c040151945a4ac8662b1dfdb6,
+        type: 3}
+      propertyPath: precio
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1414641632289885149, guid: e3f7582c040151945a4ac8662b1dfdb6,
         type: 3}
       propertyPath: m_LocalPosition.x
