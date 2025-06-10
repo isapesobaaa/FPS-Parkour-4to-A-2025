@@ -5,20 +5,22 @@ using TMPro;
 
 public class DineroManager : MonoBehaviour
 {
-
+    public UIManager uiManager;
     public float playerMoney;
     public TextMeshProUGUI moneyText;
 
-    public void UpdateMoney(float amount)
+    public bool UpdateMoney(float amount)
     {
         if (playerMoney + amount < 0)
         {
             //impedir compra
+            return false;
         }
         else
         {
             playerMoney += amount;
-            moneyText.text = playerMoney.ToString();
+            uiManager.UpdateMoney(playerMoney.ToString());
         }
+        return true;
     }
 }
