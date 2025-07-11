@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class HurtingObjectScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float daño = -10f;
+    public HealthManagerScript healthManager;
+
+    private void Start()
     {
-        
+        healthManager = FindObjectOfType<HealthManagerScript>();
+        if (healthManager)
+        {
+            Debug.Log("hpla");
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnCollisionEnter(Collision collision)
     {
-        
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            healthManager.UpdateHealth(daño);
+        } else {
+            Debug.Log("NO toco a un jugador");
+        }
     }
 }

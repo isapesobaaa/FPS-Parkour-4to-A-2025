@@ -11,5 +11,10 @@ public class UIManager : MonoBehaviour
     public void UpdateMoney(string amount) {
         moneyTextMesh.text = amount;
     }
+
+    public void UpdateHealthText(float points)
+    {
+        healthTextMesh.text = points.ToString();
+    }
 }
 
