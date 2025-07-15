@@ -10,11 +10,7 @@ public class HurtingObjectScript : MonoBehaviour
     private void Start()
     {
         healthManager = FindObjectOfType<HealthManagerScript>();
-        if (healthManager)
-        {
-            Debug.Log("hpla");
-        }
-    }
+    } 
 
     public void OnCollisionEnter(Collision collision)
     {

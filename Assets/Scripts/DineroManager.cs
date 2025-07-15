@@ -9,6 +9,10 @@ public class DineroManager : MonoBehaviour
     public float playerMoney;
     public TextMeshProUGUI moneyText;
 
+    void Start()
+    {
+        uiManager.UpdateMoney(playerMoney.ToString());
+    }
     public bool UpdateMoney(float amount)
     {
         if (playerMoney + amount < 0)
